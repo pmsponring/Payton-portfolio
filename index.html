@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Payton Sponring Work Samples</title>
+<meta name="description" content="Campaign work samples from Payton Sponring, growth and demand generation marketer: Anchorage Digital Prime launch, stablecoin DOOH, X video, display and Reddit creative.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0}
+img{max-width:100%}
+[hidden]{display:none!important}
+
+/* Layout: a campaign case file. Header with the numbers that matter, then one band per campaign; each band pairs a short brief with its creative laid out as a gallery, every piece tagged with its channel and format. */
+:root{
+  --bg:#F3F5F8; --surface:#FFFFFF; --ink:#111827; --muted:#5A6476; --line:#DCE1EA;
+  --accent:#2F4FD8; --accent-soft:#E3E8FB; --plate:#E9EDF3;
+  --display:"Schibsted Grotesk",ui-sans-serif,system-ui,sans-serif;
+  --body:"IBM Plex Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0E1116; --surface:#161A22; --ink:#E8ECF3; --muted:#9AA4B6; --line:#272D39;
+  --accent:#8EA2FF; --accent-soft:#1E2747; --plate:#1B202A; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E1116; --surface:#161A22; --ink:#E8ECF3; --muted:#9AA4B6; --line:#272D39;
+  --accent:#8EA2FF; --accent-soft:#1E2747; --plate:#1B202A; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 var(--body)}
+.wrap{max-width:1120px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--display);margin:0;text-wrap:balance;letter-spacing:-.015em}
+a{color:var(--accent)}
+.tag{font:500 11px/1 var(--mono);letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+
+header.top{padding-block:56px 40px;display:grid;gap:28px;border-bottom:1px solid var(--line)}
+.id{display:grid;gap:10px}
+h1{font-size:clamp(38px,6vw,64px);font-weight:800;line-height:1}
+.role{font:500 clamp(17px,2vw,20px)/1.3 var(--display);color:var(--muted)}
+.lede{max-width:62ch;margin:0;color:var(--ink)}
+.contact{display:flex;flex-wrap:wrap;gap:8px 20px;font:400 14px var(--mono);color:var(--muted)}
+.contact span{user-select:all}
+.figures{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;border-top:1px solid var(--line)}
+.fig{padding:18px 18px 4px 0;display:grid;gap:4px;min-width:0}
+.fig+.fig{padding-left:18px;border-left:1px solid var(--line)}
+.fig b{font:800 clamp(26px,3.4vw,36px)/1 var(--display);font-variant-numeric:tabular-nums;color:var(--accent)}
+.fig span{font-size:14px;color:var(--muted)}
+@media (max-width:720px){.figures{grid-template-columns:repeat(2,minmax(0,1fr))}.fig:nth-child(3){padding-left:0;border-left:0}.fig{padding-bottom:14px}}
+
+nav.toc{display:flex;flex-wrap:wrap;gap:8px;padding-block:20px}
+nav.toc a{font:500 14px/1 var(--body);text-decoration:none;color:var(--ink);border:1px solid var(--line);border-radius:999px;padding:9px 14px;background:var(--surface)}
+nav.toc a:hover{border-color:var(--accent);color:var(--accent)}
+a:focus-visible,video:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+
+section.campaign{padding-block:48px;border-top:1px solid var(--line);display:grid;gap:28px}
+.brief{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:16px 40px;align-items:start}
+.brief h2{font-size:clamp(26px,3.4vw,36px);font-weight:700;line-height:1.1}
+.brief p{margin:0;max-width:60ch}
+.brief .meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.chip{font:500 12px/1 var(--mono);padding:6px 9px;border-radius:4px;background:var(--accent-soft);color:var(--accent)}
+@media (max-width:760px){.brief{grid-template-columns:minmax(0,1fr)}}
+
+.gallery{display:grid;gap:20px;grid-template-columns:repeat(12,minmax(0,1fr));align-items:start}
+figure{margin:0;display:grid;gap:10px;min-width:0}
+.plate{background:var(--plate);border-radius:6px;padding:16px;display:flex;justify-content:center;align-items:center;overflow:hidden}
+.plate img,.plate video{display:block;max-width:100%;height:auto;border-radius:3px}
+.plate.bleed{padding:0}
+.plate.bleed img{border-radius:6px;width:100%}
+figcaption{display:grid;gap:3px;font-size:14px;color:var(--muted)}
+figcaption strong{color:var(--ink);font-weight:600}
+.span-12{grid-column:span 12}.span-8{grid-column:span 8}.span-7{grid-column:span 7}.span-6{grid-column:span 6}.span-5{grid-column:span 5}.span-4{grid-column:span 4}
+@media (max-width:860px){.span-8,.span-7,.span-6,.span-5,.span-4{grid-column:span 12}}
+.scroller{max-height:620px;overflow-y:auto;border-radius:6px;border:1px solid var(--line)}
+.scroller img{display:block;width:100%}
+.phone{max-width:300px;width:100%}
+.stack{display:grid;gap:20px;min-width:0}
+
+footer{padding-block:40px 64px;border-top:1px solid var(--line);color:var(--muted);font-size:14px;display:grid;gap:6px;max-width:72ch}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="id">
+      <span class="tag">Work samples · 2025–2026</span>
+      <h1>Payton Sponring</h1>
+      <span class="role">Growth &amp; Demand Generation Marketing | Fintech &amp; Digital Assets</span>
+    </div>
+    <p class="lede">Selected campaigns from my time as Director of Growth Marketing at Anchorage Digital, a federally chartered crypto bank. I planned and ran paid media and launches across seven product lines, for crypto-native teams and traditional financial institutions, with every claim cleared through legal and compliance.</p>
+    <div class="contact"><span>paytonmsponring@gmail.com</span><a href="Payton-Sponring-Work-Samples.pdf">Download PDF</a><span>732-841-9821</span></div>
+    <div class="figures">
+      <div class="fig"><b>$1M+</b><span>annual paid media I managed, scaled from ~$500K</span></div>
+      <div class="fig"><b>$5.2M+</b><span>closed-won revenue from 250+ opportunities</span></div>
+      <div class="fig"><b>$1M+</b><span>marketing-attributed closed-won from the Prime launch in its first six months</span></div>
+      <div class="fig"><b>3.5×</b><span>monthly site sessions, ~20K to ~70K</span></div>
+    </div>
+  </header>
+
+  <nav class="toc" aria-label="Campaigns">
+    <a href="#prime">Prime launch</a>
+    <a href="#stablecoins">Stablecoin issuance</a>
+    <a href="#banking">Banking &amp; payments</a>
+    <a href="#advisors">Wealth &amp; advisors</a>
+    <a href="#porto">Porto (institutional DeFi)</a>
+  </nav>
+
+  <section class="campaign" id="prime">
+    <div class="brief">
+      <div><span class="tag">Product launch</span><h2>Anchorage Digital Prime</h2></div>
+      <div>
+        <p>Launch of a unified trading, custody and margin platform for institutions. I led the paid launch: channel plan, audiences, budget and pacing, plus the conversion tracking that tied ad activity to opportunities and revenue. Prime drove $1M+ in marketing-attributed closed-won revenue in its first six months.</p>
+        <div class="meta"><span class="chip">Landing page</span><span class="chip">Reddit</span><span class="chip">Paid search &amp; social</span></div>
+      </div>
+    </div>
+    <div class="gallery">
+      <figure class="span-7">
+        <div class="scroller" tabindex="0" aria-label="Prime landing page, scrollable"><img src="assets/prime-landing.jpg" alt="Anchorage Digital Prime landing page: Put your capital to work on one integrated platform, with trading interface and platform stats" loading="lazy"></div>
+        <figcaption><strong>Prime landing page</strong><span>Launch destination for paid traffic. Scroll inside the frame.</span></figcaption>
+      </figure>
+      <figure class="span-5">
+        <div class="plate"><img src="assets/reddit-prime.png" alt="Reddit promoted post: Fragmented infrastructure slowing you down? Anchorage Digital Prime simplifies trading, custody, and margin." loading="lazy"></div>
+        <figcaption><strong>Reddit promoted post</strong><span>Pain-point headline aimed at trading desks.</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="campaign" id="stablecoins">
+    <div class="brief">
+      <div><span class="tag">Brand + demand</span><h2>Stablecoin issuance</h2></div>
+      <div>
+        <p>Positioned Anchorage as the regulated partner for companies launching their own stablecoin. The program paired digital out-of-home in New York and in private airport terminals in San Francisco with a LinkedIn case study push on the first federally regulated stablecoin, built with Ethena Labs.</p>
+        <div class="meta"><span class="chip">LinkNYC DOOH</span><span class="chip">Private terminal DOOH</span><span class="chip">LinkedIn document ad</span></div>
+      </div>
+    </div>
+    <div class="gallery">
+      <figure class="span-8">
+        <div class="plate bleed"><img src="assets/dooh-linknyc-enterprise.jpg" alt="LinkNYC kiosk at Bleecker and Grove: Your stablecoin at enterprise scale. Build your stablecoin with Anchorage Digital." loading="lazy"></div>
+        <figcaption><strong>LinkNYC kiosk, West Village</strong><span>"Your stablecoin at enterprise scale"</span></figcaption>
+      </figure>
+      <figure class="span-4">
+        <div class="plate"><img src="assets/linkedin-ethena-case-study.png" alt="LinkedIn promoted document ad: Anchorage Digital Bank and Ethena Labs, launching the first federally regulated stablecoin" loading="lazy"></div>
+        <figcaption><strong>LinkedIn document ad</strong><span>Ethena Labs USDtb case study</span></figcaption>
+      </figure>
+      <figure class="span-6">
+        <div class="plate bleed"><img src="assets/dooh-linknyc-global.jpg" alt="LinkNYC kiosk: Your platform is global. Your money should be too." loading="lazy"></div>
+        <figcaption><strong>LinkNYC kiosk, alternate creative</strong><span>"Your platform is global. Your money should be too."</span></figcaption>
+      </figure>
+      <figure class="span-6">
+        <div class="plate bleed"><img src="assets/lobby-display.jpg" alt="Large digital display in a private airport terminal in San Francisco: Your brand. Your stablecoin. Build it with Anchorage Digital." loading="lazy"></div>
+        <figcaption><strong>Private airport terminal, San Francisco</strong><span>"Your brand. Your stablecoin."</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="campaign" id="banking">
+    <div class="brief">
+      <div><span class="tag">Product marketing to fintechs</span><h2>Banking &amp; payments</h2></div>
+      <div>
+        <p>Campaigns for Anchorage's banking services: moving money across USD and digital assets, domestic and international wires, built for fintechs. Run on X with video and static creative.</p>
+        <div class="meta"><span class="chip">X video · 9:16</span><span class="chip">X promoted post</span></div>
+      </div>
+    </div>
+    <div class="gallery">
+      <figure class="span-5">
+        <div class="plate"><video class="phone" src="assets/x-video-ad.mp4" poster="assets/x-video-poster.jpg" controls playsinline preload="metadata" aria-label="X video ad: Global money movement across USD and digital assets. This is banking for the fintechs."></video></div>
+        <figcaption><strong>X video ad: "Crypto 🤝 USD"</strong><span>Global money movement across USD and digital assets. Press play.</span></figcaption>
+      </figure>
+      <figure class="span-7">
+        <div class="plate"><img src="assets/x-wires.png" alt="X promoted post: Move money across borders and blockchains, anytime, with Anchorage Digital, showing a wire details form" loading="lazy"></div>
+        <figcaption><strong>X promoted post</strong><span>"Move money across borders and blockchains, anytime"</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="campaign" id="advisors">
+    <div class="brief">
+      <div><span class="tag">Programmatic display</span><h2>Wealth &amp; advisors</h2></div>
+      <div>
+        <p>Animated display aimed at wealth managers and advisory firms whose clients want crypto exposure, positioning a federally chartered bank as the safe way to offer it.</p>
+        <div class="meta"><span class="chip">300×600</span><span class="chip">300×250</span><span class="chip">Animated GIF</span></div>
+      </div>
+    </div>
+    <div class="gallery">
+      <figure class="span-6">
+        <div class="plate"><img src="assets/display-300x600.gif" width="300" height="600" alt="300 by 600 animated display ad: Your clients are asking about crypto. Offer it through a federally chartered digital asset bank." loading="lazy"></div>
+        <figcaption><strong>Half page, 300×600</strong><span>"Your clients are asking about crypto"</span></figcaption>
+      </figure>
+      <figure class="span-6">
+        <div class="plate"><img src="assets/display-300x250.gif" width="300" height="250" alt="300 by 250 animated display ad: Digital assets are entering portfolios. Position your firm for what's next." loading="lazy"></div>
+        <figcaption><strong>Medium rectangle, 300×250</strong><span>"Digital assets are entering portfolios"</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="campaign" id="porto">
+    <div class="brief">
+      <div><span class="tag">Product launch</span><h2>Porto by Anchorage Digital</h2></div>
+      <div>
+        <p>Acquisition for Porto, Anchorage's platform for institutional DeFi. Three message angles ran on Reddit: access without seed phrases, risk guardrails, and API automation.</p>
+        <div class="meta"><span class="chip">Reddit</span><span class="chip">Static + video</span><span class="chip">Message testing</span></div>
+      </div>
+    </div>
+    <div class="gallery">
+      <figure class="span-4">
+        <div class="plate"><img src="assets/reddit-porto-swaps.png" alt="Reddit promoted post: Unlock institutional DeFi with Porto. Native swaps. On-chain strategies. No seed phrases." loading="lazy"></div>
+        <figcaption><strong>Angle 1: access</strong><span>"No seed phrases"</span></figcaption>
+      </figure>
+      <figure class="span-4">
+        <div class="plate"><img src="assets/reddit-porto-guardrails.png" alt="Reddit promoted video: DeFi moves fast. Porto moves with guardrails. No more blind exposure." loading="lazy"></div>
+        <figcaption><strong>Angle 2: risk</strong><span>"Porto moves with guardrails"</span></figcaption>
+      </figure>
+      <figure class="span-4">
+        <div class="plate"><img src="assets/reddit-porto-apis.png" alt="Reddit promoted video: Automate your DeFi strategies. Use Porto APIs to scale your operations." loading="lazy"></div>
+        <figcaption><strong>Angle 3: automation</strong><span>"Use Porto APIs to scale"</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <footer>
+    <span>All work shown is from Anchorage Digital (2025–2026), as published. I owned channel strategy, audiences, budgets, launch planning and measurement; creative was produced in partnership with the Anchorage brand and creative teams.</span>
+  </footer>
+</div>
+</body>
+</html>
